@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         }
               Labe.text = array[index]
     }
-    var array = ["drink more water", "watch a comedy", "call to old friend", "take a bath with foam", "take a break", "work hard", "read book", "go for a walk", "don't die", "don't forget about your friends", "remember - everything is possible", "clean your desk", "don't eat alone", "take care of your shoes"]
+    var array = ["take a break", "work hard", "read book", "go for a walk", "don't die", "don't forget about your friends","drink more water", "watch a comedy", "call to old friend", "take a bath with foam", "remember - everything is possible", "clean your desk", "don't eat alone", "take care of your shoes", "praise yourself"]
     
     
     @IBOutlet weak var b: UIButton!

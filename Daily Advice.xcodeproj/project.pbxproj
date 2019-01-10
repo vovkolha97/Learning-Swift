@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F26CB00621E69B8200382F02 /* Try2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26CB00621E69B8200382F02 /* Daily Advice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Advice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26CB00921E69B8200382F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F26CB00B21E69B8200382F02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F26CB00E21E69B8300382F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		F26CAFFD21E69B8200382F02 = {
 			isa = PBXGroup;
 			children = (
-				F26CB00821E69B8200382F02 /* Try2 */,
+				F26CB00821E69B8200382F02 /* DailyAdvice */,
 				F26CB00721E69B8200382F02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		F26CB00721E69B8200382F02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F26CB00621E69B8200382F02 /* Try2.app */,
+				F26CB00621E69B8200382F02 /* Daily Advice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F26CB00821E69B8200382F02 /* Try2 */ = {
+		F26CB00821E69B8200382F02 /* DailyAdvice */ = {
 			isa = PBXGroup;
 			children = (
 				F26CB00921E69B8200382F02 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				F26CB01221E69B9000382F02 /* LaunchScreen.storyboard */,
 				F26CB01521E69B9000382F02 /* Info.plist */,
 			);
-			path = Try2;
+			path = DailyAdvice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F26CB00521E69B8200382F02 /* Try2 */ = {
+		F26CB00521E69B8200382F02 /* Daily Advice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F26CB01821E69B9000382F02 /* Build configuration list for PBXNativeTarget "Try2" */;
+			buildConfigurationList = F26CB01821E69B9000382F02 /* Build configuration list for PBXNativeTarget "Daily Advice" */;
 			buildPhases = (
 				F26CB00221E69B8200382F02 /* Sources */,
 				F26CB00321E69B8200382F02 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Try2;
+			name = "Daily Advice";
 			productName = Try2;
-			productReference = F26CB00621E69B8200382F02 /* Try2.app */;
+			productReference = F26CB00621E69B8200382F02 /* Daily Advice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F26CB00121E69B8200382F02 /* Build configuration list for PBXProject "Try2" */;
+			buildConfigurationList = F26CB00121E69B8200382F02 /* Build configuration list for PBXProject "Daily Advice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F26CB00521E69B8200382F02 /* Try2 */,
+				F26CB00521E69B8200382F02 /* Daily Advice */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +290,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.my.project.Try2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.project.DailyAdvice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -310,7 +310,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.my.project.Try2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.project.DailyAdvice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F26CB00121E69B8200382F02 /* Build configuration list for PBXProject "Try2" */ = {
+		F26CB00121E69B8200382F02 /* Build configuration list for PBXProject "Daily Advice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F26CB01621E69B9000382F02 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F26CB01821E69B9000382F02 /* Build configuration list for PBXNativeTarget "Try2" */ = {
+		F26CB01821E69B9000382F02 /* Build configuration list for PBXNativeTarget "Daily Advice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F26CB01921E69B9000382F02 /* Debug */,
